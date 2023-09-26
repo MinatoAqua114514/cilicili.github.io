@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>个人爱好兴趣</title>
+    <style>
+        body {
+            background-image: url("#");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            text-align: center;
+            color: #39c5bb;
+        }
+
+        #sidebar {
+            float: left;
+            width: 100px;
+            margin-left: 30px;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #content {
+            margin-left: 220px;
+            margin-right: 10%;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f1f1f1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: large;
+        }
+
+        .person {
+            display: flex;
+            align-items: center;
+        }
+
+        .person img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .person .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .person .music-list {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+        }
+
+        .person .music-list audio {
+            margin-bottom: 5px;
+        }
+
+        .photo-gallery {
+            display: flex;
+            justify-content: space-between;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .photo-gallery img {
+            width: 20%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>爱好兴趣</h1>
+    <div id="sidebar">
+        <ul>
+            <li><a href="index.html">🔗主页</a></li><br>
+            <li><a href="CircleFriend.html">🔗朋友圈</a></li><br>
+            <li><a href="Major.html">🔗专业课程</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h2 id="music">音乐</h2>
+        <div class="person">
+            <img src="images/icons/eason.webp" alt="Person Image">
+            <p class="name">陈奕迅</p>
+            <div class="music-list">
+                无条件<audio src="images/resources/无条件 - 陈奕迅.mp4" controls></audio>
+                裙下之臣<audio src="images/resources/裙下之臣 - 陈奕迅.mp4" controls></audio>
+                起点·终站<audio src="images/resources/起点·终站 - 陈奕迅.mp4" controls></audio>
+            </div>
+        </div>
+        <h2 id="sports">运动</h2>
+        <h3>木球</h3>
+        木球是宁夏回族地区特有的一种球类运动，是在回族聚居的农村广泛流行的一种风趣的传统体育项目。它是由农村青少年放牧时的“打篮子”“赶毛球”演变而来的，亦可称为“牧球”，具有浓厚的乡土气息。<br>
+        <img src="images/resources/木球.png" alt="木球">
+        <embed src="images/resources/木球.mp4" type="video/mp4" height="400px" width="200px">
+        <h2 id="anime">动漫</h2>
+        <a href="https://space.bilibili.com/43903758?spm_id_from=333.1007.0.0">我的BILIBILI动漫网站个人主页链接🔗👈</a><br>
+        <img src="images/resources/bilibili.png" alt="BILIBILI个人主页">
+        <h2 id="photography">摄影</h2>
+        <p>这里是关于摄影的内容。</p>
+        <div class="photo-gallery">
+            <img src="images/resources/photo/1.jpg" alt="Photo 1">
+            <img src="images/resources/photo/4.jpg" alt="Photo 2">
+            <img src="images/resources/photo/6.jpg" alt="Photo 3">
+            <img src="images/resources/photo/10.jpg" alt="Photo 4">
+            <img src="images/resources/photo/9.jpg" alt="Photo 5">
+            <img src="images/resources/photo/2.jpg" alt="Photo 6">
+            <img src="images/resources/photo/3.jpg" alt="Photo 7">
+            <img src="images/resources/photo/5.jpg" alt="Photo 8">
+        </div>
+    </div>
+</body>
+
+</html>
