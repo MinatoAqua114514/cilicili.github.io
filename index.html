@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的网站</title>
+    <style>
+        /*主页,文本,图片,超级链接,表格*/
+        
+        /*主页背景图*/
+        body {
+            background-image: url("images/background/bg1.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /*大标题，居中*/
+        h1 {
+            text-align: center;
+            color: #39c5bb;
+        }
+
+        /*内容块，圆角边框10px，白色*/
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        /*表格*/
+        table {
+            width: 100%;
+        }
+
+        /*行列，居左，填充10px*/
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        /*头像图标，圆*/
+        .icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-image: url("images/icons/top.png");
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        /*链接居中*/
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /*链接黑色加粗字体*/
+        .links a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>我的网站/个人信息</h1>
+    <div class="container">
+        <div class="icon"></div>
+        <table>
+            <tr>
+                <th>姓名</th>
+                <td>陈佳林</td>
+            </tr>
+            <tr>
+                <th>年龄</th>
+                <td>20岁/(巨蟹座♋)</td>
+            </tr>
+            <tr>
+                <th>性别</th>
+                <td>男</td>
+            </tr>
+            <tr>
+                <th>班级</th>
+                <td>22软件工程1班</td>
+            </tr>
+        </table>
+        <div class="links">
+            <p><b>其他网站链接：👇</b></p>
+            <a href="CircleFriend.html">CircleFriend</a>
+            <a href="Hobby.html">Hobby</a>
+            <a href="Major.html">Major</a>
+        </div>
+    </div>
+    <img width="100px" height="100px" src="images/resources/GIF3.gif" align="left" alt="动图3">
+    <img width="100px" height="100px" src="images/resources/GIF2.gif" align="right" alt="动图3">
+</body>
+</html>
